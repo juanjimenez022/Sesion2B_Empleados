@@ -9,6 +9,7 @@ public class Empleado {
 		float salario;
 		
 		//Tipo de empleado
+		
 		if(tipo == TipoEmpleado.encargado)
 		{
 			salario = 2500;
@@ -23,6 +24,7 @@ public class Empleado {
 		}
 		
 		//Cantidad de ventas
+		
 		if(ventasMes >= 1000 && ventasMes < 1500)
 		{
 			salario = salario + 100;
@@ -34,6 +36,7 @@ public class Empleado {
 		
 		
 		//Horas extra
+		
 		if( horasExtra > 0)
 		{
 			salario = salario + hExtraValor * horasExtra;
@@ -47,6 +50,7 @@ public class Empleado {
 		float salarioNeto;
 		
 		//Sin Comisión
+		
 		if(nominaBruta < 2100 && nominaBruta > 0) {
 			salarioNeto = nominaBruta;
 		}

@@ -4,5 +4,4 @@ public enum TipoEmpleado {
 	vendedor,
 	encargado,
 	otro
-
 }
